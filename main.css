@@ -1,0 +1,198 @@
+/** common */
+footer > h2, .otherWorks > h2, .myBrand > h2, .about > h2 {
+  font-size: 64px;
+  line-height: 75px;
+  color: white;
+  font-style: italic;
+  font-weight: 500;
+}
+
+footer > p, .myBrand > h3, .myBrand, .about > .jobTitle > li, .about > .personalInfo > li, .info, .title p {
+  font-size: 24px;
+  line-height: 42px;
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("./img/banner.png");
+  background-repeat: no-repeat;
+  height: 958px;
+  margin: 0 auto;
+  color: white;
+}
+
+.title h1 {
+  font-size: 80px;
+  line-height: 94px;
+  margin-bottom: 32px;
+  font-style: italic;
+  font-weight: 800;
+}
+
+.info {
+  margin-bottom: 48px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.icon > li {
+  margin-right: 16px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about > h2 {
+  color: black;
+  margin-top: 64px;
+  margin-bottom: 40px;
+}
+.about > .personalInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 384px;
+  border-bottom: 1px solid black;
+}
+.about > .personalInfo > li {
+  color: black;
+  margin-bottom: 8px;
+}
+.about > .personalInfo > li > img {
+  display: block;
+  height: 384px;
+  width: 384px;
+}
+.about > .personalInfo > li:nth-child(1) {
+  margin-bottom: 24px;
+}
+.about > .personalInfo > li:nth-child(4) {
+  width: 412px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.about > .jobTitle {
+  padding-top: 32px;
+  margin-bottom: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about > .jobTitle > li {
+  position: relative;
+  color: black;
+}
+.about > .jobTitle > li::before {
+  position: absolute;
+  content: "";
+  top: 11px;
+  left: -38px;
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  background-color: #891818;
+}
+
+.myBrand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+.myBrand > h2 {
+  margin-top: 64px;
+  margin-bottom: 16px;
+}
+.myBrand > h3 {
+  margin-bottom: 32px;
+}
+.myBrand > p {
+  font-size: 20px;
+  text-align: center;
+  width: 320px;
+  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 48px;
+}
+.myBrand > img {
+  height: 416px;
+  width: 792px;
+  margin-bottom: 40px;
+}
+.myBrand > .myBrand_layer2 > img {
+  width: 538px;
+  margin-bottom: 160px;
+}
+.myBrand > .myBrand_layer2 > :nth-child(1) {
+  margin-right: 24px;
+}
+
+.otherWorks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("./img/photo-1561291386-5be50364cfb5.png");
+  background-repeat: no-repeat;
+  background-position: 0 361px;
+}
+.otherWorks > h2 {
+  color: black;
+  margin-top: 64px;
+  margin-bottom: 24px;
+}
+.otherWorks > p {
+  font-size: 20px;
+  line-height: 42px;
+  color: black;
+  font-style: italic;
+  margin-bottom: 48px;
+}
+.otherWorks > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 56px;
+}
+.otherWorks > ul > li {
+  margin-right: 24px;
+}
+.otherWorks > ul > li > img {
+  margin-bottom: 16px;
+}
+.otherWorks > ul > li > p {
+  font-size: 20px;
+  line-height: 42px;
+  font-style: italic;
+  color: white;
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  height: 317px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer > h2 {
+  margin-top: 64px;
+  margin-bottom: 16px;
+}
+footer > p {
+  margin-bottom: 16px;
+}
